@@ -1,0 +1,17 @@
+{
+  "name": "atl-scene-report-backend",
+  "version": "1.0.0",
+  "description": "ATL 场景报备 Web 后端",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "xlsx": "^0.18.5"
+  }
+}
